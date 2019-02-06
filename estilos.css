@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+.container{
+    width: 800px;
+    background-color: #3498db;
+    height: auto;
+    margin: auto;
+    padding: 16px;
+    border-radius: 5px;
+
+}
+
+.delete{    
+    width: auto !important;
+    height: auto !important;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+/*Seletores*/
+
+body{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+a{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
+}
+
+input,select{
+    margin: 10px;
+    width: 150px;
+    height: 40px;
+    outline: none;
+    padding-left: 10px;
+    border: none;
+    box-sizing: border-box;
+   font-family: 'Nunito', sans-serif;
+}
+
+button{
+    margin: 10px;
+    width: 150px;
+    height: 40px;
+    outline: none;  
+    border: none; 
+    box-sizing: border-box; 
+    background-color: #ecf0f1;
+    font-family: 'Nunito', sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    height: auto;
+}
+
+th{
+    background-color: #2980b9;
+    border-bottom: white;    
+    padding: 10px;
+}
+
+td{
+    text-align: center;
+}
+
